@@ -18,15 +18,15 @@ testreq这是大标题一般为工程名相当于html中的h1
 ![github](http://github.com/unicorn.png "github")
 ### 显示带链接的图片
 [![github]](http://github.com/unicorn.png "github")
-[image]:http://github.com/unicorn.png "github"
+[image]: http://github.com/unicorn.png "github"
 
 ### 块注释
 >这是被环绕后的文字
 >
->这是被环绕后的文字
+>>这是被环绕后的文字
 
 ### 使用转义字符
-使用反斜杠如\#,\>,\=
+使用反斜杠如\#,\>
 
 ### 无序列表
 * 第一行
@@ -35,3 +35,19 @@ testreq这是大标题一般为工程名相当于html中的h1
 ### 有序列表
 1. 第一行
 2. 第二行
+
+### 直接写html代码
+<table>
+<tr>
+<th>a</th><th>b</th><th>c</th><th>c</th>
+</tr>
+<tr>
+<td>1</td><td>2</td><td>3</td><td>3</td>
+</tr>
+<tr>
+<td>11</td><td>12</td><td>13</td><td>13</td>
+</tr>
+<tr>
+<td>11</td><td>12</td><td>13</td><td>13</td>
+</tr>
+</table>
